@@ -1,13 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter !important;
 }
 
 a {
@@ -19,12 +16,43 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.main_bg_primary{
+  background:#005AEE,
+
 }
+.main_bg_secondary{
+  background: #EE9400;
+}
+
+.main_text_primary{
+color:#152730;
+}
+.main_text_secondary{
+
+}
+
+.main_heading{
+
+
+}
+.sub_heading{
+}
+.text_paragraph{
+  font-size: 1.15rem;
+}
+
+
+.main_bg_dark_primary{
+  background:black;
+}
+.main_bg_dark_secondary{
+
+}
+
+.main_text_dark_primary{
+  color:white;
+}
+.main_text_dark_secondary{
+
+}
+

@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 
 
 export default function Home() {
+  
   return (
     <div>
       <div className='sm:text-xs md:text-9xl '>
