@@ -1,8 +1,14 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({name, className}) => {
   return (
-    <div>Button</div>
+    <button 
+    type="submit" 
+    className={`btn ${className}`}
+   
+    >
+   {name} 
+    </button>
   )
 }
 

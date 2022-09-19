@@ -1,8 +1,11 @@
 import React from 'react'
+import Button from '../components/Button'
 
 const AboutUs = () => {
   return (
-    <div>about-us</div>
+    <div>
+      <Button name='Learn More about TechXillence'/>
+    </div>
   )
 }
 
