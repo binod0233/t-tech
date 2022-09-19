@@ -56,3 +56,26 @@ color:#152730;
 
 }
 
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .main_heading{
+
+
+  }
+  .sub_heading{
+  }
+  .text_paragraph{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main_heading{
+
+
+  }
+  .sub_heading{
+  }
+  .text_paragraph{
+    font-size: 0.7rem;
+  }
+}
