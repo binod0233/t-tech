@@ -2,6 +2,8 @@ import React from 'react'
 import Button from './Button'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Title from './Title';
+import Paragraph from './Paragraph';
 const ExploreServicesCard = ({ id, image }) => {
   return (
     <div>
@@ -11,25 +13,31 @@ const ExploreServicesCard = ({ id, image }) => {
           <div className="card-image" style={{height:'75px', width:'75px'}}>
             <img src={image} alt='card image' style={{height:'inherit', width:'inherit', objectFit:'cover'}} />
           </div>
-          <div className='h2 pt-3' style={{ fontWeight: '600' }}>Product Design</div>
-          <div className="card-subtitle">Bringing heart and soul to create products that will maximize user experience and satisfy business metrics while looking just stunning.</div>
+          <div className='pt-3'>
+            <Title title='Product Design'/>
+          </div>
+      <Paragraph content="Bringing heart and soul to create products that will maximize user experience and satisfy business metrics while looking just stunning."/>
+
           <div className="card-text pt-3">
             <div>
-              <div>
-                <span><CheckCircleIcon /></span>
-                <span>Exceptional concept work</span>
+              <div className='d-flex align-items-center'>
+                <div><CheckCircleIcon /></div>
+               <div><Paragraph content='Exceptional concept work' /></div>
               </div>
-              <div>
-                <span><CheckCircleIcon /></span>
-                <span>Best UX practices</span>
+          
+              <div className='d-flex align-items-center'>
+                <div><CheckCircleIcon /></div>
+               <div><Paragraph content='Best UX practices' /></div>
               </div>
-              <div>
-                <span><CheckCircleIcon /></span>
-                <span>Consistent visual identity</span>
+              
+              <div className='d-flex align-items-center'>
+                <div><CheckCircleIcon /></div>
+               <div><Paragraph content='Consistent visual identity' /></div>
               </div>
-              <div>
-                <span><CheckCircleIcon /></span>
-                <span> Constant product improvement</span>
+              
+              <div className='d-flex align-items-center'>
+                <div><CheckCircleIcon /></div>
+               <div><Paragraph content='Constant product improvement' /></div>
               </div>
             </div>
           </div>

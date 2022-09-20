@@ -1,4 +1,5 @@
 import React from 'react'
+import Paragraph from './Paragraph'
 
 const Button = ({name, className,BtnIcon, borderRadius}) => {
   return (
@@ -10,7 +11,7 @@ const Button = ({name, className,BtnIcon, borderRadius}) => {
     padding:'.4rem .8rem'
    }}
     >
-   <span>{name} </span><span className='ms-2'>{BtnIcon}</span>
+   <Paragraph content={name}/><span className='ms-2'>{BtnIcon}</span>
     </button>
   )
 }
