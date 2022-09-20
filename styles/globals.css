@@ -8,8 +8,8 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 * {
@@ -17,15 +17,14 @@ a {
 }
 
 .main_bg_primary{
-  background:#005AEE,
-
+  background:#005AEE !important;
 }
 .main_bg_secondary{
-  background: #EE9400;
+  background: #EE9400 !important;
 }
 
 .main_text_primary{
-color:#152730;
+color:#152730 !important;
 }
 .main_text_secondary{
 
@@ -43,7 +42,7 @@ color:#152730;
 
 
 .main_bg_dark_primary{
-  background:black;
+  background:black !important;
 }
 .main_bg_dark_secondary{
 
