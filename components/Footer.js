@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 
@@ -19,15 +20,15 @@ const Footer = () => {
                   <div style={{fontWeight:'600'}}> Developers</div>
                 </Row>
                 <div>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
                 </div>
               </Col>
               <Col sm={12} md={6} xl={6}>
@@ -35,15 +36,15 @@ const Footer = () => {
                   <div style={{fontWeight:'600'}}>Digital Designers</div>
                 </Row>
                 <div>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
-                  <Row><div className='mt-3'>Angular Developers</div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Angular Developers</Link></div></Row>
                 </div>
               </Col>
             </Row>
@@ -57,18 +58,18 @@ const Footer = () => {
                   </div>
                 </Row>
                 <div>
-                  <Row><div className='mt-3'>Copywriter</div></Row>
-                  <Row><div className='mt-3'>Content Writer</div></Row>
-                  <Row><div className='mt-3'>Writer</div></Row>
-                  <Row><div className='mt-3'>Resume Writer</div></Row>
-                  <Row><div className='mt-3'>User Flow Design</div></Row>
-                  <Row><div className='mt-3'>Prototype Design</div></Row>
-                  <Row><div className='mt-3'>Interaction Design</div></Row>
-                  <Row><div className='mt-3'>Graphic Design</div></Row>
-                  <Row><div className='mt-3'>Motion Graphic Design</div></Row>
-                  <Row><div className='mt-3'>Facebook Ad Design</div></Row>
-                  <Row><div className='mt-3'>Instagram Ad Design</div></Row>
-                  <Row><div className='mt-3'>Banner Design</div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Copywriter</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Content Writer</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Writer</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Resume Writer</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>User Flow Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Prototype Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Interaction Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Graphic Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Motion Graphic Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Facebook Ad Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Instagram Ad Design</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Banner Design</Link></div></Row>
                 </div>
               </Col>
               <Col sm={12} md={6} xl={6}>
@@ -78,10 +79,10 @@ const Footer = () => {
                   </div>
                 </Row>
                 <div>
-                  <Row><div className='mt-3'> Engineering Documentation</div></Row>
-                  <Row><div className='mt-3'>Engineering Tender Preparation</div></Row>
-                  <Row><div className='mt-3'>Engineering Drawing</div></Row>
-                  <Row><div className='mt-3'>Engineering Simulation And Analysis</div></Row>
+                  <Row><div className='mt-3'><Link href='#'> Engineering Documentation</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Engineering Tender Preparation</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Engineering Drawing</Link></div></Row>
+                  <Row><div className='mt-3'><Link href='#'>Engineering Simulation And Analysis</Link></div></Row>
                 </div>
               </Col>
             </Row>
@@ -100,11 +101,11 @@ const Footer = () => {
                   </Row>
                   <hr />
                   <div>
-                    <Row><div className='mt-1'>CONTACT US</div></Row>
-                    <Row><div className='mt-1'>+977 9826986729</div></Row>
-                    <Row><div className='mt-1'>info@copenned.com</div></Row>
-                    <Row><div className='mt-1'>MEET US IN</div></Row>
-                    <Row><div className='mt-1'>Bhaktapur, Nepal</div></Row>
+                    <Row><div className='mt-1'><Link href='#'>CONTACT US</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>+977 9826986729</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>info@copenned.com</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>MEET US IN</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Bhaktapur, Nepal</Link></div></Row>
                   </div>
                 </Col>
                 <Col sm={12} md={6} xl={6}>
@@ -112,13 +113,13 @@ const Footer = () => {
                     <div>COMPANY</div>
                   </Row>
                   <div>
-                    <Row><div className='mt-1'>About Us</div></Row>
-                    <Row><div className='mt-1'>Career</div></Row>
-                    <Row><div className='mt-1'>FAQs </div></Row>
-                    <Row><div className='mt-1'>Blog</div></Row>
-                    <Row><div className='mt-1'>Contact Us</div></Row>
-                    <Row><div className='mt-1'>Terms & Conditions</div></Row>
-                    <Row><div className='mt-1'>Privacy Policy</div></Row>
+                    <Row><div className='mt-1'><Link href='#'>About Us</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Career</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>FAQs</Link> </div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Blog</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Contact Us</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Terms & Conditions</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Privacy Policy</Link></div></Row>
 
                   </div>
                 </Col>
@@ -133,15 +134,15 @@ const Footer = () => {
                     </div>
                   </Row>
                   <div>
-                    <Row><div className='mt-1'>Product Design</div></Row>
-                    <Row><div className='mt-1'>Web Development</div></Row>
-                    <Row><div className='mt-1'>Mobile Development</div></Row>
-                    <Row><div className='mt-1'>Technical Writing</div></Row>
-                    <Row><div className='mt-1'>Quality Assurance</div></Row>
-                    <Row><div className='mt-1'>Cloud Application</div></Row>
-                    <Row><div className='mt-1'>UI/UX Desgin</div></Row>
-                    <Row><div className='mt-1'>MVP Development</div></Row>
-                    <Row><div className='mt-1'>All Services</div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Product Design</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Web Development</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Mobile Development</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Technical Writing</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'></Link>Quality Assurance</div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Cloud Application</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>UI/UX Desgin</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>MVP Development</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>All Services</Link></div></Row>
                   </div>
                 </Col>
                 <Col sm={12} md={6} xl={6}>
@@ -151,14 +152,14 @@ const Footer = () => {
                     </div>
                   </Row>
                   <div>
-                    <Row><div className='mt-1'>Angular</div></Row>
-                    <Row><div className='mt-1'>React</div></Row>
-                    <Row><div className='mt-1'>UI?UX</div></Row>
-                    <Row><div className='mt-1'>Node.Js</div></Row>
-                    <Row><div className='mt-1'>SQL</div></Row>
-                    <Row><div className='mt-1'>Java</div></Row>
-                    <Row><div className='mt-1'>PHP</div></Row>
-                    <Row><div className='mt-1'>JavaScript</div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Angular</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>React</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>UI/UX</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Node.Js</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>SQL</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>Java</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>PHP</Link></div></Row>
+                    <Row><div className='mt-1'><Link href='#'>JavaScript</Link></div></Row>
 
 
                   </div>
